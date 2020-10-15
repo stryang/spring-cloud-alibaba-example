@@ -1,0 +1,21 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: example-dubbo-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${NACOS-HOST:www.strongyang.com}:${NACOS-PORT:8848}
+  profiles:
+    active: dev
+
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: example-dubbo-server

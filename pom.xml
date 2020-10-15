@@ -12,6 +12,7 @@
         <module>alibaba-example-nacos-client</module>
         <module>alibaba-example-sentinel-client</module>
         <module>spring-cloud-example-gateway</module>
+        <module>alibaba-example-dubbo</module>
     </modules>
 
     <properties>
