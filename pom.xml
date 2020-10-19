@@ -13,6 +13,8 @@
         <module>alibaba-example-sentinel-client</module>
         <module>spring-cloud-example-gateway</module>
         <module>alibaba-example-dubbo</module>
+        <module>alibaba-example-seata</module>
+        <module>alibaba-example-rocektmq</module>
     </modules>
 
     <properties>
